@@ -1,3 +1,10 @@
+# HOW_TO Guide
+
+**Version:** 1.0.0  
+**Last updated:** 2025-05-23
+
+This guide describes how to use SuperSecurePM version 1.0.0. For other versions, please refer to the corresponding documentation in the `releases/` folder.
+
 # How to Use SuperSecure Password Manager
 
 This guide will help you get started with the SuperSecure Password Manager, understand its features, and maintain a secure and organized vault of your credentials.

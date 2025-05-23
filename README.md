@@ -1,6 +1,10 @@
 ```markdown
 # SuperSecure Password Manager
 
+*Author:* Jesper Aadalen  
+*Contact:* info@cramech.se 
+
+
 SuperSecure is a standalone, browser-based password manager focused on privacy, offline access, and robust encryption. Built using only HTML, CSS, and JavaScript, it requires no server or third-party dependencies. Everything is self-contained and runs locally in your web browser.
 
 This project is intended for technically-inclined users who value minimalism, transparency, and control over their own data.

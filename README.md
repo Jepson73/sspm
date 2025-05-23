@@ -1,68 +1,101 @@
+Absolutely — here's the updated root-level `README.md` with a traditional and minimal note about optional favicon and browser tab icons, in a sensible location within the document.
+
+---
+
+```markdown
 # SuperSecure Password Manager
 
-SuperSecure is a secure, client-side password manager that runs entirely in your browser. It allows you to store, generate, and manage your passwords with strong encryption, no server dependency, and full control over your data.
+SuperSecure is a standalone, browser-based password manager focused on privacy, offline access, and robust encryption. Built using only HTML, CSS, and JavaScript, it requires no server or third-party dependencies. Everything is self-contained and runs locally in your web browser.
+
+This project is intended for technically-inclined users who value minimalism, transparency, and control over their own data.
+
+---
+
+## Project Goals
+
+- **Offline-first and client-only**: Your passwords never leave your machine.
+- **Strong cryptography**: Uses AES-GCM and PBKDF2 from the WebCrypto API.
+- **Full ownership**: Vault data is stored locally, encrypted with your master password.
+- **Traditional ethos**: Simple, understandable, no-nonsense password management.
+
+---
 
 ## Features
 
-- Master Password Encryption  
-  Your data is encrypted using AES-GCM with a key derived from your master password via PBKDF2.
+- Vault encryption using a master password.
+- Password CRUD (Create, Read, Update, Delete) management.
+- Password strength meter and generator.
+- LocalStorage-based encrypted vault.
+- Import/export of encrypted vaults.
+- Search functionality and usage statistics.
+- Auto logout and clipboard clearing.
 
-- Local Vault Storage  
-  All passwords are stored locally in your browser's localStorage. No data is ever sent over the internet.
+See `HOW_TO.md` for user instructions.
 
-- Password Strength Meter  
-  Visual feedback on password strength during creation and editing.
-
-- Custom Password Generator  
-  Generate strong passwords with options for length, uppercase, lowercase, numbers, and symbols.
-
-- Searchable Vault  
-  Quickly find saved credentials using a built-in search function.
-
-- Vault Import and Export  
-  Export your encrypted vault to a file for backup or transfer. Import files back using the correct master password.
-
-- Vault Statistics  
-  Overview dashboard shows total, strong, and weak password counts.
-
-- Clipboard Auto-Clear  
-  Passwords copied to clipboard are automatically cleared after 15 seconds.
-
-- Auto Logout  
-  The application automatically logs out after 5 minutes of inactivity.
-
-- Responsive Interface  
-  Works across desktop and mobile browsers with a clean, adaptive design.
-
-## Technologies Used
-
-- HTML, CSS, JavaScript (Vanilla)
-- WebCrypto API (AES-GCM, PBKDF2)
-- Browser LocalStorage
-- CSS Grid and Flexbox
-
-## Getting Started
-
-1. Open `supersecurePM.html` in a modern web browser.
-2. Set a strong master password to initialize your vault.
-3. Add, manage, and generate passwords as needed.
-4. Export your vault regularly for backup purposes.
-
-## Security Considerations
-
-- Use a long, unique master password. This is the only key to your encrypted data.
-- This application performs all encryption locally using the browser’s WebCrypto API.
-- Avoid usage on shared or public computers to prevent unauthorized access.
+---
 
 ## File Structure
 
-- `supersecurePM.html` — Standalone HTML file containing the entire application.
-- Vault data is stored in browser localStorage under the keys `vault_data` and `vault_salt`.
+```
+
+SuperSecurePM/
+├── README.md              # Project overview (this file)
+├── HOW\_TO.md              # End-user instruction guide
+├── CHANGELOG.md           # Version history and changes
+├── FUTURE\_ADDONS.md       # Planned enhancements and features
+├── releases/              # Versioned application builds
+│   ├── 1.0.0/
+│   │   ├── supersecurePM-1.0.0.html
+│   │   ├── LICENSE
+│   │   └── (optional) README.md, HOW\_TO.md
+│   └── ...
+
+```
+
+---
+
+## Optional Browser Enhancements
+
+If you intend to host this application or serve it in a browser context:
+
+- You may include a `favicon.ico` or `<link rel="icon">` tag in the HTML head for a custom browser tab icon.
+- These assets are entirely optional and do not affect functionality or security.
+- Favicons may be stored in the same directory or linked via absolute or relative paths as needed.
+
+---
+
+## Usage
+
+Open any version of the app in a modern browser by launching its `.html` file directly. No installation required.
+
+---
+
+## Security Considerations
+
+- Never lose your master password — it cannot be recovered.
+- Only open the application in secure environments you control.
+- Always export your vault to an encrypted backup periodically.
+
+---
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+MIT License — see each version folder for a copy.
 
-## Author
+---
 
-Built with a traditional focus on user sovereignty and secure local-first design principles.
+## Development and Contributions
+
+This project is versioned manually and structured for conservative, offline use. Contributions are welcome if they maintain the project's core principles:
+
+- No server-side components.
+- No dependency on external libraries or services.
+- Respect for user privacy and sovereignty.
+
+---
+
+## Maintainer Philosophy
+
+This project is built with a traditional mindset: durability, simplicity, and self-sufficiency over trends or hype. If you're looking for a password manager that just works and puts you in control, this may suit your needs.
+
+```

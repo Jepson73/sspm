@@ -1,7 +1,3 @@
-Absolutely — here's the updated root-level `README.md` with a traditional and minimal note about optional favicon and browser tab icons, in a sensible location within the document.
-
----
-
 ```markdown
 # SuperSecure Password Manager
 
@@ -98,4 +94,3 @@ This project is versioned manually and structured for conservative, offline use.
 
 This project is built with a traditional mindset: durability, simplicity, and self-sufficiency over trends or hype. If you're looking for a password manager that just works and puts you in control, this may suit your needs.
 
-```

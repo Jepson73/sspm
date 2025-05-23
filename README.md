@@ -32,23 +32,20 @@ See `HOW_TO.md` for user instructions.
 
 ## File Structure
 
-```
-
 SuperSecurePM/
-├── README.md              # Project overview (this file)
-├── HOW\_TO.md              # End-user instruction guide
-├── CHANGELOG.md           # Version history and changes
-├── FUTURE\_ADDONS.md       # Planned enhancements and features
-├── releases/              # Versioned application builds
+├── README.md               # Project overview (this file)
+├── HOW_TO.md               # End-user instruction guide
+├── CHANGELOG.md            # Version history and changes
+├── FUTURE_ADDONS.md        # Planned enhancements and features
+├── releases/               # Versioned application builds
 │   ├── 1.0.0/
 │   │   ├── supersecurePM-1.0.0.html
 │   │   ├── LICENSE
-│   │   └── (optional) README.md, HOW\_TO.md
+│   │   └── (optional) README.md, HOW_TO.md
 │   └── ...
 
-```
-
 ---
+
 
 ## Optional Browser Enhancements
 

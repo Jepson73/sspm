@@ -5,7 +5,7 @@ This guide will help you get started with the SuperSecure Password Manager, unde
 ## 1. Setup and First Use
 
 ### Step 1: Open the Application
-- Locate the `supersecurePM.html` file on your machine.
+- Locate the `supersecurePM-x.y.z.html` file on your machine.
 - Open it with any modern web browser (Chrome, Firefox, Edge, etc.).
 
 ### Step 2: Create a Vault
